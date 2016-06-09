@@ -1,0 +1,32 @@
+
+.notifier {
+
+  .alert {
+    position: fixed;
+    top: $navbar-height + 10px;
+    right: 0;
+    margin: 20px;
+    z-index: 2000;
+
+    width: 40%;
+
+    //responsive designs
+    @media only screen and (max-width: 768px) {
+      width: 90%;
+    }
+
+    animation: notification-shake 4s 2s;
+    animation-iteration-count: infinite;
+  }
+}
+
+//animations  https://github.com/atom/notifications/blob/master/styles/notifications.less
+
+@keyframes notification-shake {
+    0% { transform: translateX(   0); }
+    2% { transform: translateX(-4px); }
+    4% { transform: translateX( 8px); }
+    6% { transform: translateX(-4px); }
+    8% { transform: translateX(   0); }
+  100% { transform: translateX(   0); }
+}

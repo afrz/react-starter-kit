@@ -1,0 +1,9 @@
+{
+  "config": {
+    "webAPI": "http://localhost:8888/zen",
+    "instance": {
+      "code": "ZEN",
+      "lock": false
+    }
+  }
+}

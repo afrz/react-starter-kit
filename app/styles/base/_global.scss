@@ -1,0 +1,37 @@
+
+
+//represents icon image
+.fileIcon {
+  height: $icon_default_size;
+  width: $icon_default_size;
+}
+
+//informative bagde
+.badge-info {
+  background-color: $app_color_dark;
+}
+
+.modal-title.text-primary {
+  color: $app_color_dark;
+}
+
+//text selection
+::selection {
+  background-color: $app_color_dark;
+  color: white;
+}
+
+//navigation bar
+.navbar-brand {
+
+  padding-top: 12px;
+
+  //logo
+  img {
+
+    display: inline;
+    margin-right: 5px;
+    height: 40px;
+    width: auto;
+  }
+}

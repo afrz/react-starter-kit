@@ -1,0 +1,11 @@
+
+body {
+  padding-top: $navbar-height + 20px;
+
+  //fix shifting navbar when modal is opened
+  //see https://github.com/twbs/bootstrap/issues/14040
+  &.modal-open {
+    overflow-y: auto !important;
+    padding-right: 0 !important;
+  }
+}

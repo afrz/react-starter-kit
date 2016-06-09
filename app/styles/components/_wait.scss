@@ -1,0 +1,14 @@
+
+//overrides spinkit variables
+$spinkit-spinner-color: $app_color;
+
+@import 'node_modules/spinkit/scss/spinners/7-three-bounce';
+
+.wait-box {
+
+  .sk-child {
+
+    border-radius: $border-radius-base;
+    margin-left: 4px;
+  }
+}

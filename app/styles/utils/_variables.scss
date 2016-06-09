@@ -1,0 +1,81 @@
+
+/** overrides bootstrap variables */
+
+//fifty shades of grey...
+$gray-base: #000000;
+$gray-dark: #46423F;
+$gray: #656565;
+$gray-lighter: #E3E3E3;
+
+//ace of base colors
+$brand-primary: #65AB49;
+$brand-success: #8F49AB;
+$brand-info: #4965AB;
+$brand-warning : #F2AD66;
+$brand-danger: #BB5063;
+
+//scaffolding
+$body-bg: lighten($gray-base, 98%);
+$link-color: $gray-dark;
+$link-hover-color: $brand-primary;
+//typo(-pothame)
+$font-family-sans-serif: "Ubuntu", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-size-base: 13px;
+
+//radius & cubitus
+$border-radius-base: 0px;
+$border-radius-large: 0px;
+$border-radius-small: 0px;
+
+//forms
+$input-border-focus: $gray;
+$dropdown-link-hover-bg: $gray-lighter;
+
+//navbar
+$navbar-height: 60px;
+$navbar-inverse-bg: $gray;
+$navbar-inverse-border: $gray-dark;
+$navbar-inverse-link-color: $gray-lighter;
+$navbar-inverse-link-hover-color: $brand-primary;
+
+//states (united of america)
+$state-success-text: #FFF;
+$state-success-bg: lighten($brand-success, 7%);
+$state-info-text: $state-success-text;
+$state-info-bg: lighten($brand-info, 7%);
+$state-warning-text: $gray-dark;
+$state-warning-bg: lighten($brand-warning, 7%);
+//special case for danger
+//$state-danger-text: $state-success-text;
+$state-danger-bg: lighten($brand-danger, 7%);
+$panel-danger-text: #FFF;
+$alert-danger-text: $panel-danger-text;
+
+//misc
+$grid-gutter-width: 15px;
+$badge-border-radius: 4px;
+$close-text-shadow: 0 1px 0 #000;
+$table-cell-padding: 2px;
+$caret-width-base: 5px;
+$panel-body-padding: 8px;
+$panel-heading-padding: 8px 8px;
+$modal-inner-padding: 12px;
+$modal-title-padding: 12px;
+
+/** application variables */
+
+//default main color
+$app_color: $brand-primary;
+//main color (darker)
+$app_color_dark: darken($app_color, 10%);
+//main color (lighter)
+$app_color_light: lighten($app_color, 45%);
+
+//default background color
+$app_color_back: $body-bg;
+//default background color (alternative)
+$app_color_back_alt: darken($app_color_back, 2%);
+//default background color (secondary)
+$app_color_back_sec: darken($app_color_back, 4%);
+//icon size
+$icon_default_size: 32px;
